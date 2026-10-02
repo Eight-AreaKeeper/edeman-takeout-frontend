@@ -1,0 +1,48 @@
+:root {
+  // Brand — warm, vivid, food-delivery accent
+  --ed-primary: #ff5a36;
+  --ed-primary-light: #ff8a63;
+  --ed-primary-dark: #e0431f;
+  --ed-primary-soft: #fff1ec;
+
+  // Status
+  --ed-success: #21b573;
+  --ed-success-soft: #e8f9f1;
+  --ed-warning: #ff9f1c;
+  --ed-warning-soft: #fff4e5;
+  --ed-danger: #f6465d;
+  --ed-danger-soft: #feecee;
+  --ed-info: #5b8def;
+  --ed-info-soft: #eaf1fe;
+
+  // Surfaces
+  --ed-bg: #f5f6fa;
+  --ed-surface: #ffffff;
+  --ed-border: #eceef2;
+  --ed-border-strong: #dfe3ea;
+
+  // Text
+  --ed-text-primary: #1f2933;
+  --ed-text-secondary: #707784;
+  --ed-text-placeholder: #b0b6c0;
+
+  // Layout
+  --ed-sidebar-width: 220px;
+  --ed-sidebar-width-collapsed: 64px;
+  --ed-navbar-height: 60px;
+  --ed-radius: 10px;
+  --ed-radius-sm: 6px;
+  --ed-shadow: 0 2px 12px rgba(31, 41, 51, 0.06);
+  --ed-shadow-hover: 0 6px 20px rgba(31, 41, 51, 0.1);
+
+  // Element Plus theme overrides
+  --el-color-primary: var(--ed-primary);
+  --el-color-primary-light-3: var(--ed-primary-light);
+  --el-color-primary-dark-2: var(--ed-primary-dark);
+  --el-color-success: var(--ed-success);
+  --el-color-warning: var(--ed-warning);
+  --el-color-danger: var(--ed-danger);
+  --el-color-info: var(--ed-info);
+  --el-border-radius-base: var(--ed-radius-sm);
+  --el-font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
